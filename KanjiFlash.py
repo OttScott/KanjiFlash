@@ -170,10 +170,16 @@ def quiz():
                     print_mode_help()
                     continue
             
-            kanji = random.choice(kanji_list)
-            
-            # Select question type based on current mode
-            question_type = random.choice(modes[current_mode])
+            # Keep selecting a random kanji and question type until we find one that has answers
+            while True:
+                kanji = random.choice(kanji_list)
+                
+                # Select question type based on current mode
+                question_type = random.choice(modes[current_mode])
+                
+                # Check if this kanji has answers for the selected question type
+                if question_type == "meaning" or (isinstance(kanji[question_type], list) and len(kanji[question_type]) > 0):
+                    break
             
             print(f"What is the {YELLOW}{question_type}{RESET} of '{YELLOW}{kanji['kanji']}{RESET}'?")
             user_answer = input("Your answer: ").strip()
