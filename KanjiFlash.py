@@ -127,6 +127,160 @@ kanji_list = [
     {"kanji": "万", "meaning": "ten thousand", "on": ["マン", "バン"], "kun": ["よろず"]},
 ]
 
+# JLPT N5 Vocabulary List
+vocab_list = [
+    # Greetings and Basic Expressions
+    {"japanese": "こんにちは", "meaning": "hello, good afternoon, good day"},
+    {"japanese": "ありがとう", "meaning": "thank you"},
+    {"japanese": "さようなら", "meaning": "goodbye"},
+    {"japanese": "おはよう", "meaning": "good morning"},
+    {"japanese": "こんばんは", "meaning": "good evening"},
+    {"japanese": "すみません", "meaning": "excuse me, sorry"},
+    {"japanese": "はい", "meaning": "yes"},
+    {"japanese": "いいえ", "meaning": "no"},
+    {"japanese": "おねがいします", "meaning": "please"},
+    {"japanese": "どうぞ", "meaning": "please, go ahead"},
+    {"japanese": "どういたしまして", "meaning": "you're welcome"},
+    
+    # People and Relationships
+    {"japanese": "わたし", "meaning": "I, me"},
+    {"japanese": "あなた", "meaning": "you"},
+    {"japanese": "ともだち", "meaning": "friend"},
+    {"japanese": "かぞく", "meaning": "family"},
+    {"japanese": "ひと", "meaning": "person"},
+    {"japanese": "おとこ", "meaning": "man"},
+    {"japanese": "おんな", "meaning": "woman"},
+    {"japanese": "こども", "meaning": "child"},
+    {"japanese": "せんせい", "meaning": "teacher"},
+    {"japanese": "がくせい", "meaning": "student"},
+    {"japanese": "かいしゃいん", "meaning": "company employee"},
+    {"japanese": "おとうさん", "meaning": "father"},
+    {"japanese": "おかあさん", "meaning": "mother"},
+    {"japanese": "あに", "meaning": "older brother"},
+    {"japanese": "あね", "meaning": "older sister"},
+    {"japanese": "おとうと", "meaning": "younger brother"},
+    {"japanese": "いもうと", "meaning": "younger sister"},
+    
+    # Places and Locations
+    {"japanese": "うち", "meaning": "home, house"},
+    {"japanese": "いえ", "meaning": "house"},
+    {"japanese": "がっこう", "meaning": "school"},
+    {"japanese": "だいがく", "meaning": "university"},
+    {"japanese": "びょういん", "meaning": "hospital"},
+    {"japanese": "みせ", "meaning": "shop, store"},
+    {"japanese": "レストラン", "meaning": "restaurant"},
+    {"japanese": "えき", "meaning": "station"},
+    {"japanese": "ホテル", "meaning": "hotel"},
+    {"japanese": "こうえん", "meaning": "park"},
+    {"japanese": "としょかん", "meaning": "library"},
+    {"japanese": "ぎんこう", "meaning": "bank"},
+    {"japanese": "ゆうびんきょく", "meaning": "post office"},
+    {"japanese": "トイレ", "meaning": "toilet, restroom"},
+    {"japanese": "まち", "meaning": "town, city"},
+    {"japanese": "くに", "meaning": "country"},
+    
+    # Time Expressions
+    {"japanese": "いま", "meaning": "now"},
+    {"japanese": "きょう", "meaning": "today"},
+    {"japanese": "あした", "meaning": "tomorrow"},
+    {"japanese": "きのう", "meaning": "yesterday"},
+    {"japanese": "まいにち", "meaning": "every day"},
+    {"japanese": "あさ", "meaning": "morning"},
+    {"japanese": "ひる", "meaning": "noon, daytime"},
+    {"japanese": "ばん", "meaning": "evening, night"},
+    {"japanese": "よる", "meaning": "night"},
+    {"japanese": "じかん", "meaning": "time, hour"},
+    {"japanese": "とき", "meaning": "time, when"},
+    {"japanese": "にち", "meaning": "day"},
+    {"japanese": "しゅう", "meaning": "week"},
+    {"japanese": "がつ", "meaning": "month"},
+    {"japanese": "ねん", "meaning": "year"},
+    
+    # Objects and Household Items
+    {"japanese": "ほん", "meaning": "book"},
+    {"japanese": "ノート", "meaning": "notebook"},
+    {"japanese": "えんぴつ", "meaning": "pencil"},
+    {"japanese": "ボールペン", "meaning": "ballpoint pen"},
+    {"japanese": "かばん", "meaning": "bag"},
+    {"japanese": "つくえ", "meaning": "desk"},
+    {"japanese": "いす", "meaning": "chair"},
+    {"japanese": "でんわ", "meaning": "telephone"},
+    {"japanese": "けいたいでんわ", "meaning": "mobile phone"},
+    {"japanese": "テレビ", "meaning": "television"},
+    {"japanese": "ラジオ", "meaning": "radio"},
+    {"japanese": "カメラ", "meaning": "camera"},
+
+    # Transportation and Travel
+    {"japanese": "くるま", "meaning": "car"},
+    {"japanese": "じてんしゃ", "meaning": "bicycle"},
+    {"japanese": "でんしゃ", "meaning": "train"},
+    {"japanese": "バス", "meaning": "bus"},
+    {"japanese": "ひこうき", "meaning": "airplane"},
+    {"japanese": "ふね", "meaning": "boat, ship"},
+    {"japanese": "あるいて", "meaning": "on foot, walking"},
+    
+    # Food and Drinks
+    {"japanese": "みず", "meaning": "water"},
+    {"japanese": "おちゃ", "meaning": "tea"},
+    {"japanese": "コーヒー", "meaning": "coffee"},
+    {"japanese": "ジュース", "meaning": "juice"},
+    {"japanese": "ビール", "meaning": "beer"},
+    {"japanese": "おさけ", "meaning": "alcohol, sake"},
+    {"japanese": "ごはん", "meaning": "rice, meal"},
+    {"japanese": "パン", "meaning": "bread"},
+    {"japanese": "にく", "meaning": "meat"},
+    {"japanese": "さかな", "meaning": "fish"},
+    {"japanese": "やさい", "meaning": "vegetable"},
+    {"japanese": "くだもの", "meaning": "fruit"},
+    {"japanese": "りんご", "meaning": "apple"},
+    {"japanese": "バナナ", "meaning": "banana"},
+    {"japanese": "みかん", "meaning": "orange, mandarin"},
+    
+    # Other Common Nouns
+    {"japanese": "てんき", "meaning": "weather"},
+    {"japanese": "あめ", "meaning": "rain"},
+    {"japanese": "ゆき", "meaning": "snow"},
+    {"japanese": "かぜ", "meaning": "wind"},
+    {"japanese": "なつ", "meaning": "summer"},
+    {"japanese": "ふゆ", "meaning": "winter"},
+    {"japanese": "はる", "meaning": "spring"},
+    {"japanese": "あき", "meaning": "autumn, fall"},
+    {"japanese": "でんき", "meaning": "electricity, light"},
+    {"japanese": "おかね", "meaning": "money"},
+    {"japanese": "しごと", "meaning": "work, job"},
+    {"japanese": "べんきょう", "meaning": "study"},
+    {"japanese": "スポーツ", "meaning": "sports"},
+    {"japanese": "ともだち", "meaning": "friend"},
+    {"japanese": "たべもの", "meaning": "food"},
+    {"japanese": "のみもの", "meaning": "drink, beverage"},
+    
+    # Basic Adjectives
+    {"japanese": "おおきい", "meaning": "big, large"},
+    {"japanese": "ちいさい", "meaning": "small, little"},
+    {"japanese": "あたらしい", "meaning": "new"},
+    {"japanese": "ふるい", "meaning": "old (for things)"},
+    {"japanese": "いい", "meaning": "good"},
+    {"japanese": "わるい", "meaning": "bad"},
+    {"japanese": "たかい", "meaning": "expensive, high"},
+    {"japanese": "やすい", "meaning": "cheap, inexpensive"},
+    {"japanese": "むずかしい", "meaning": "difficult"},
+    {"japanese": "やさしい", "meaning": "easy, kind"},
+    
+    # Basic Verbs
+    {"japanese": "いく", "meaning": "to go"},
+    {"japanese": "くる", "meaning": "to come"},
+    {"japanese": "たべる", "meaning": "to eat"},
+    {"japanese": "のむ", "meaning": "to drink"},
+    {"japanese": "みる", "meaning": "to see, to watch"},
+    {"japanese": "きく", "meaning": "to listen, to hear"},
+    {"japanese": "よむ", "meaning": "to read"},
+    {"japanese": "かく", "meaning": "to write"},
+    {"japanese": "はなす", "meaning": "to speak, to talk"},
+    {"japanese": "ねる", "meaning": "to sleep"},
+    {"japanese": "おきる", "meaning": "to wake up"},
+    {"japanese": "かう", "meaning": "to buy"}
+]
+
 def get_romaji(text):
     """Convert Japanese text to romaji using the new pykakasi API"""
     result = converter.convert(text)
@@ -136,23 +290,29 @@ def get_romaji(text):
 def print_mode_help():
     """Print help information for different modes"""
     print("\nKanji Flash Quiz Modes:")
-    print(f"{YELLOW}1{RESET}: All question types (meaning, on-yomi, kun-yomi)")
-    print(f"{YELLOW}2{RESET}: Meaning questions only")
+    print(f"{YELLOW}1{RESET}: All kanji question types (meaning, on-yomi, kun-yomi)")
+    print(f"{YELLOW}2{RESET}: Kanji meaning questions only")
     print(f"{YELLOW}3{RESET}: On-yomi questions only")
     print(f"{YELLOW}4{RESET}: Kun-yomi questions only")
+    print(f"{YELLOW}5{RESET}: Vocabulary: Japanese to English")
+    print(f"{YELLOW}6{RESET}: Vocabulary: English to Japanese")
+    print(f"{YELLOW}7{RESET}: All vocabulary questions")
     print(f"{YELLOW}h{RESET}: Display this help message")
     print(f"{YELLOW}q{RESET}: Quit the program")
     print("Press the corresponding key at any time to switch modes.\n")
 
 def quiz():
     try:
-        # Set initial mode - 1: all, 2: meaning only, 3: on only, 4: kun only
+        # Set initial mode
         current_mode = 1
         modes = {
-            1: ["meaning", "on", "kun"],  # All types
-            2: ["meaning"],               # Meaning only
+            1: ["meaning", "on", "kun"],  # All kanji types
+            2: ["meaning"],               # Kanji meaning only
             3: ["on"],                    # On-yomi only
-            4: ["kun"]                    # Kun-yomi only
+            4: ["kun"],                   # Kun-yomi only
+            5: ["vocab_ja_to_en"],        # Vocabulary: Japanese to English
+            6: ["vocab_en_to_ja"],        # Vocabulary: English to Japanese
+            7: ["vocab_ja_to_en", "vocab_en_to_ja"]  # All vocabulary
         }
         
         print_mode_help()
@@ -163,89 +323,154 @@ def quiz():
                 key = msvcrt.getch().decode('utf-8', errors='ignore')
                 if key == 'q':
                     raise KeyboardInterrupt  # Handle quit
-                elif key in ['1', '2', '3', '4']:
+                elif key in ['1', '2', '3', '4', '5', '6', '7']:
                     current_mode = int(key)
                     print(f"\n{GREEN}Switched to Mode {current_mode}: {'/'.join(modes[current_mode])} questions.{RESET}\n")
                 elif key == 'h':
                     print_mode_help()
                     continue
             
-            # Keep selecting a random kanji and question type until we find one that has answers
-            while True:
-                kanji = random.choice(kanji_list)
+            # Determine if we're doing a kanji or vocabulary question
+            mode_type = modes[current_mode][0]
+            is_vocab = mode_type.startswith("vocab")
+            
+            if is_vocab:
+                # Handle vocabulary questions
+                vocab = random.choice(vocab_list)
+                vocab_mode = random.choice(modes[current_mode])
                 
-                # Select question type based on current mode
-                question_type = random.choice(modes[current_mode])
-                
-                # Check if this kanji has answers for the selected question type
-                if question_type == "meaning" or (isinstance(kanji[question_type], list) and len(kanji[question_type]) > 0):
-                    break
-            
-            print(f"What is the {YELLOW}{question_type}{RESET} of '{YELLOW}{kanji['kanji']}{RESET}'?")
-            user_answer = input("Your answer: ").strip()
-            
-            # Check if the answer is actually a mode change command
-            if user_answer in ['1', '2', '3', '4']:
-                current_mode = int(user_answer)
-                print(f"\n{GREEN}Switched to Mode {current_mode}: {'/'.join(modes[current_mode])} questions.{RESET}\n")
-                continue
-            elif user_answer == 'h':
-                print_mode_help()
-                continue
-            elif user_answer == 'q':
-                raise KeyboardInterrupt
-            
-            correct_answers = kanji[question_type] if isinstance(kanji[question_type], list) else [kanji[question_type]]
-            
-            if question_type == "meaning":
-                # For meaning, just check if the answer is in the meaning string
-                if ((user_answer.lower() != "") and (user_answer.lower() in kanji["meaning"].lower())):
-                    other_meanings = kanji["meaning"].replace(user_answer.lower(), "").replace(",", "").strip()
-                    if other_meanings:
-                        print(f"{GREEN}Correct!{RESET}   (Also: {other_meanings})\n")
-                    else:
-                        print(f"{GREEN}Correct!{RESET}\n")
-                else:
-                    print(f"{RED}Wrong. The correct answer is: {kanji['meaning']}{RESET}")
-                    print(f"Kanji {YELLOW}{kanji['kanji']}{RESET} full info:")
-                    print(f"  - Meaning: {YELLOW}{kanji['meaning']}{RESET}")
-                    print(f"  - On-yomi: {YELLOW}{', '.join(kanji['on'])}{RESET}")
-                    print(f"  - Kun-yomi: {YELLOW}{', '.join(kanji['kun'])}{RESET}\n")
-            else:
-                # For on and kun readings, use romaji conversion
-                correct_romaji = [get_romaji(answer) for answer in correct_answers]
-                
-                if user_answer in correct_answers or user_answer in correct_romaji:
-                    # Get the matched answer
-                    matched_answer = None
-                    if user_answer in correct_answers:
-                        matched_answer = user_answer
-                    else:
-                        for i, romaji in enumerate(correct_romaji):
-                            if user_answer == romaji:
-                                matched_answer = correct_answers[i]
-                                break
+                if vocab_mode == "vocab_ja_to_en":
+                    # Japanese to English
+                    print(f"What is the meaning of '{YELLOW}{vocab['japanese']}{RESET}'?")
+                    user_answer = input("Your answer: ").strip()
                     
-                    # Show other possible answers
-                    other_answers = [a for a in correct_answers if a != matched_answer]
-                    if other_answers:
-                        other_romaji = [get_romaji(a) for a in other_answers]
-                        other_display = [f"{a} ({r})" for a, r in zip(other_answers, other_romaji)]
-                        print(f"{GREEN}Correct!{RESET}   (Also: {', '.join(other_display)})\n")
+                    # Check for mode change commands
+                    if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
+                        current_mode = int(user_answer)
+                        print(f"\n{GREEN}Switched to Mode {current_mode}: {'/'.join(modes[current_mode])} questions.{RESET}\n")
+                        continue
+                    elif user_answer == 'h':
+                        print_mode_help()
+                        continue
+                    elif user_answer == 'q':
+                        raise KeyboardInterrupt
+                    
+                    # Check the answer - make sure it's not empty and is in the meaning
+                    if user_answer.lower() and user_answer.lower() in vocab["meaning"].lower():
+                        print(f"{GREEN}Correct!{RESET}   (Full meaning: {vocab['meaning']})\n")
                     else:
-                        print(f"{GREEN}Correct!{RESET}\n")
+                        print(f"{RED}Wrong. The correct meaning is: {vocab['meaning']}{RESET}\n")
+                
+                else:  # vocab_en_to_ja
+                    # English to Japanese
+                    print(f"What is the Japanese word for '{YELLOW}{vocab['meaning']}{RESET}'?")
+                    user_answer = input("Your answer: ").strip()
+                    
+                    # Check for mode change commands
+                    if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
+                        current_mode = int(user_answer)
+                        print(f"\n{GREEN}Switched to Mode {current_mode}: {'/'.join(modes[current_mode])} questions.{RESET}\n")
+                        continue
+                    elif user_answer == 'h':
+                        print_mode_help()
+                        continue
+                    elif user_answer == 'q':
+                        raise KeyboardInterrupt
+                    
+                    # Don't process empty answers
+                    if not user_answer:
+                        print(f"{RED}Wrong. You must enter an answer. The correct word is: {vocab['japanese']} (Romaji: {get_romaji(vocab['japanese'])}){RESET}\n")
+                        continue
+                    
+                    # Convert user answer to romaji for comparison
+                    user_romaji = get_romaji(user_answer)
+                    vocab_romaji = get_romaji(vocab['japanese'])
+                    
+                    # Check the answer
+                    if user_answer == vocab['japanese'] or user_romaji == vocab_romaji:
+                        print(f"{GREEN}Correct!{RESET}   ({vocab['japanese']} = {vocab['meaning']})\n")
+                    else:
+                        print(f"{RED}Wrong. The correct word is: {vocab['japanese']} (Romaji: {vocab_romaji}){RESET}\n")
+            
+            else:
+                # Handle kanji questions (original functionality)
+                # Keep selecting a random kanji and question type until we find one that has answers
+                while True:
+                    kanji = random.choice(kanji_list)
+                    
+                    # Select question type based on current mode
+                    question_type = random.choice(modes[current_mode])
+                    
+                    # Check if this kanji has answers for the selected question type
+                    if question_type == "meaning" or (isinstance(kanji[question_type], list) and len(kanji[question_type]) > 0):
+                        break
+                
+                print(f"What is the {YELLOW}{question_type}{RESET} of '{YELLOW}{kanji['kanji']}{RESET}'?")
+                user_answer = input("Your answer: ").strip()
+                
+                # Check if the answer is actually a mode change command
+                if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
+                    current_mode = int(user_answer)
+                    print(f"\n{GREEN}Switched to Mode {current_mode}: {'/'.join(modes[current_mode])} questions.{RESET}\n")
+                    continue
+                elif user_answer == 'h':
+                    print_mode_help()
+                    continue
+                elif user_answer == 'q':
+                    raise KeyboardInterrupt
+                
+                correct_answers = kanji[question_type] if isinstance(kanji[question_type], list) else [kanji[question_type]]
+                
+                if question_type == "meaning":
+                    # For meaning, just check if the answer is in the meaning string
+                    if ((user_answer.lower() != "") and (user_answer.lower() in kanji["meaning"].lower())):
+                        other_meanings = kanji["meaning"].replace(user_answer.lower(), "").replace(",", "").strip()
+                        if other_meanings:
+                            print(f"{GREEN}Correct!{RESET}   (Also: {other_meanings})\n")
+                        else:
+                            print(f"{GREEN}Correct!{RESET}\n")
+                    else:
+                        print(f"{RED}Wrong. The correct answer is: {kanji['meaning']}{RESET}")
+                        print(f"Kanji {YELLOW}{kanji['kanji']}{RESET} full info:")
+                        print(f"  - Meaning: {YELLOW}{kanji['meaning']}{RESET}")
+                        print(f"  - On-yomi: {YELLOW}{', '.join(kanji['on'])}{RESET}")
+                        print(f"  - Kun-yomi: {YELLOW}{', '.join(kanji['kun'])}{RESET}\n")
                 else:
-                    print(f"{RED}Wrong. The correct answer is: {', '.join(correct_answers)} (Romaji: {', '.join(correct_romaji)}){RESET}")
-                    print(f"Kanji {YELLOW}{kanji['kanji']}{RESET} full info:")
-                    print(f"  - Meaning: {YELLOW}{kanji['meaning']}{RESET}")
-                    print(f"  - On-yomi: {YELLOW}{', '.join(kanji['on'])}{RESET}")
-                    print(f"  - Kun-yomi: {YELLOW}{', '.join(kanji['kun'])}{RESET}\n")
+                    # For on and kun readings, use romaji conversion
+                    correct_romaji = [get_romaji(answer) for answer in correct_answers]
+                    
+                    if user_answer in correct_answers or user_answer in correct_romaji:
+                        # Get the matched answer
+                        matched_answer = None
+                        if user_answer in correct_answers:
+                            matched_answer = user_answer
+                        else:
+                            for i, romaji in enumerate(correct_romaji):
+                                if user_answer == romaji:
+                                    matched_answer = correct_answers[i]
+                                    break
+                        
+                        # Show other possible answers
+                        other_answers = [a for a in correct_answers if a != matched_answer]
+                        if other_answers:
+                            other_romaji = [get_romaji(a) for a in other_answers]
+                            other_display = [f"{a} ({r})" for a, r in zip(other_answers, other_romaji)]
+                            print(f"{GREEN}Correct!{RESET}   (Also: {', '.join(other_display)})\n")
+                        else:
+                            print(f"{GREEN}Correct!{RESET}\n")
+                    else:
+                        print(f"{RED}Wrong. The correct answer is: {', '.join(correct_answers)} (Romaji: {', '.join(correct_romaji)}){RESET}")
+                        print(f"Kanji {YELLOW}{kanji['kanji']}{RESET} full info:")
+                        print(f"  - Meaning: {YELLOW}{kanji['meaning']}{RESET}")
+                        print(f"  - On-yomi: {YELLOW}{', '.join(kanji['on'])}{RESET}")
+                        print(f"  - Kun-yomi: {YELLOW}{', '.join(kanji['kun'])}{RESET}\n")
+    
     except KeyboardInterrupt:
         print(f"\n{GREEN}Thanks for studying! Goodbye.{RESET}")
         return
 
 if __name__ == "__main__":
     print("JLPT N5 Kanji Quiz")
-    print("You can switch modes anytime by pressing 1-4")
+    print("You can switch modes anytime by pressing 1-7")
     print("Press CTRL-C or q to exit")
     quiz()
