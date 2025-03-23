@@ -287,6 +287,35 @@ def get_romaji(text):
     # The new API returns a list of dictionaries with 'hepburn' key for romaji
     return ''.join([item['hepburn'] for item in result])
 
+def get_input(prompt):
+    """Custom input function that avoids sys.stdin which causes problems with PyInstaller"""
+    print(prompt, end='', flush=True)
+    result = ""
+    while True:
+        char = msvcrt.getch().decode('utf-8', errors='ignore')
+        
+        # Handle backspace
+        if char == '\b':
+            if result:
+                # Delete the last character from the result
+                result = result[:-1]
+                # Move cursor back, print space, move cursor back again
+                print('\b \b', end='', flush=True)
+        
+        # Handle Enter key
+        elif char == '\r':
+            print()  # New line after input is complete
+            return result
+        
+        # Handle quit (Ctrl+C equivalent)
+        elif char == '\x03':  # Ctrl+C
+            raise KeyboardInterrupt
+        
+        # Normal character input
+        elif char.isprintable():
+            result += char
+            print(char, end='', flush=True)
+
 def print_mode_help():
     """Print help information for different modes"""
     print("\nKanji Flash Quiz Modes:")
@@ -342,7 +371,7 @@ def quiz():
                 if vocab_mode == "vocab_ja_to_en":
                     # Japanese to English
                     print(f"What is the meaning of '{YELLOW}{vocab['japanese']}{RESET}'?")
-                    user_answer = input("Your answer: ").strip()
+                    user_answer = get_input("Your answer: ").strip()
                     
                     # Check for mode change commands
                     if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
@@ -364,7 +393,7 @@ def quiz():
                 else:  # vocab_en_to_ja
                     # English to Japanese
                     print(f"What is the Japanese word for '{YELLOW}{vocab['meaning']}{RESET}'?")
-                    user_answer = input("Your answer: ").strip()
+                    user_answer = get_input("Your answer: ").strip()
                     
                     # Check for mode change commands
                     if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
@@ -406,7 +435,7 @@ def quiz():
                         break
                 
                 print(f"What is the {YELLOW}{question_type}{RESET} of '{YELLOW}{kanji['kanji']}{RESET}'?")
-                user_answer = input("Your answer: ").strip()
+                user_answer = get_input("Your answer: ").strip()
                 
                 # Check if the answer is actually a mode change command
                 if user_answer in ['1', '2', '3', '4', '5', '6', '7']:
